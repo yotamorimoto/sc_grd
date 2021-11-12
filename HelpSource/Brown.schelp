@@ -1,0 +1,24 @@
+title:: Brown
+summary:: spatiotemporal brownoise
+categories:: transnd>stream
+
+description::
+interconnected brownian motion
+
+CLASSMETHODS::
+
+METHOD:: next
+
+argument:: r
+0.0-1.0
+
+argument:: g
+0.0-1.0
+
+
+EXAMPLES::
+
+code::
+b = Brown(10);
+r{loop{b.next(0.1, 0.1).postln;0.1.wait}}.play;
+::

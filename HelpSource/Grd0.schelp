@@ -1,0 +1,6 @@
+title:: Grd0
+summary:: spatiotemporal systems
+categories:: transnd>stream
+
+description::
+an abstract class for the subclasses.
