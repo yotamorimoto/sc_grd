@@ -1,9 +1,9 @@
-title:: Brown
-summary:: spatiotemporal dynamics
+title:: Fbsin
+summary:: spatiotemporal system
 categories:: transnd>stream
 
 description::
-interconnected brownian motions
+interconnected feedback sine oscillators
 
 CLASSMETHODS::
 
@@ -25,7 +25,7 @@ EXAMPLES::
 
 code::
 // construct grid of 4 elements
-b = Brown(4);
+b = Fbsin(4);
 // embed in stream
 r{loop{b.next(0.1, 0.1).postln;0.1.wait}}.play;
 ::
