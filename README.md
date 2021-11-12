@@ -7,7 +7,7 @@
 in SuperCollider run:
 
 ```
-Quarks.install();
+Quarks.install("https://github.com/yotamorimoto/sc_grd.git");
 ```
 
 and recompile class library.
